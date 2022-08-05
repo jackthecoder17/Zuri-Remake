@@ -1,4 +1,7 @@
-@media screen and (max-width:769px) {
+@media screen and (max-width:909px) {
+    .hero-section .btn-red {
+        margin-bottom: 10px;
+    }
     .Program .card {
         width: 100%;
         margin-bottom: 20px;
