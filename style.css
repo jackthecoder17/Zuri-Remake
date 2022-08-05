@@ -1,0 +1,216 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+.hero-section {
+    margin-bottom: 150px;
+    height: 700px;
+    background-image: url(./images/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.image {
+    margin: auto;
+    display: flex;
+    padding-top: 70px;
+    margin-bottom: 72px;
+}
+
+.image img {
+    margin: auto;
+}
+
+.hero h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #514949;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.hero p a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.hero-btn button {
+    padding: 10px 25px;
+    border-radius: 0px;
+}
+
+.btn-red {
+    margin-right: 20px;
+    background-color: #E7332B;
+    color: white;
+}
+
+.btn-red:hover {
+    outline: 1px solid#E7332B;
+    background-color: white;
+    color: #E7332B;
+}
+
+.btn-red-outline {
+    outline: 1px solid#E7332B;
+    background-color: white;
+    color: #E7332B;
+}
+
+.btn-red-outline:hover {
+    background-color: #E7332B;
+    color: white;
+}
+
+.my-container {
+    max-width: 90%
+}
+
+.Program {
+    margin-bottom: 160px;
+}
+
+.Program h3 {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+}
+
+.Program .Words {
+    color: #514949;
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+
+.Program .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.Program .card {
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    /* height: 450px; */
+    background-color: #fff9f9;
+    padding: 61px 47px 82px 36px;
+}
+
+.Program .card-img-top {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.Program .card-text {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.Program a {
+    opacity: 0.8;
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.Program .card-body {
+    margin-bottom: 50px;
+}
+
+.Program .card-bg-svg-1 {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.Program .card-bg-svg-2 {
+    width: 90%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+
+/* footer .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+*/
+
+footer .row {
+    margin-bottom: 100px;
+}
+
+footer .row img {
+    margin-top: 11px;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #514949;
+}
+
+footer .row ul {
+    margin-left: -38px;
+}
+
+footer .row ul li {
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+footer .row ul li a,
+.contact a {
+    font-size: 15px;
+    color: #E7332B;
+    text-decoration: none;
+}
+
+.contact p {
+    font-size: 15px;
+    color: #514949;
+}
+
+.contact-icon {
+    text-align: right;
+}
+
+.contact-icon img {
+    width: 18px !important;
+}
+
+.copyright {
+    border-top: 1px solid #514949;
+    opacity: 0.8;
+}
+
+.copyright p {
+    padding-top: 30px;
+    margin-bottom: 120px;
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width:769px) {
+    .Program .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .Program .card-img-top {
+        margin-top: 20px;
+    }
+    .Program .card-body {
+        margin-bottom: 10px;
+    }
+    .Program .card-bg-svg-1 {
+        display: none;
+    }
+    .Program .card-bg-svg-2 {
+        display: none;
+    }
+    footer .row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .col-md-3 {
+        text-align: center;
+    }
+}
